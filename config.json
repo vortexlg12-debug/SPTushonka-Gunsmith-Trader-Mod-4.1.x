@@ -1,0 +1,11 @@
+{
+  "_comment": "priceMultiplier is applied to each build's handbook value (sum of all parts). 1.0 = handbook price. Set fixedPriceRoubles above 0 to charge one flat price for everything instead. buyLimitPerRestock 0 = no limit. includeBonusBuilds adds the extra M700 build carried over from the old mod.",
+  "priceMultiplier": 1.0,
+  "fixedPriceRoubles": 0,
+  "loyaltyLevel": 1,
+  "stockPerRestock": 10,
+  "buyLimitPerRestock": 0,
+  "restockMinutesMin": 60,
+  "restockMinutesMax": 120,
+  "includeBonusBuilds": true
+}

@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Library</OutputType>
+    <AssemblyName>GunsmithTrader</AssemblyName>
+    <Version>1.0.0</Version>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <DebugType>None</DebugType>
+    <!-- Folder containing SPTarkov.Server.Core.dll etc. Pass it on the command line:
+         dotnet build -c Release -p:SptRuntime="D:\SPT\SPT_Runtime" -->
+    <SptRuntime Condition="'$(SptRuntime)' == ''">$(MSBuildProjectDirectory)/../SPT_Runtime</SptRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <Reference Include="SPTarkov.Server.Core"><HintPath>$(SptRuntime)/SPTarkov.Server.Core.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SPTarkov.Common"><HintPath>$(SptRuntime)/SPTarkov.Common.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SPTarkov.DI"><HintPath>$(SptRuntime)/SPTarkov.DI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="SemanticVersioning"><HintPath>$(SptRuntime)/SemanticVersioning.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+  <Target Name="CheckSptRuntime" BeforeTargets="ResolveAssemblyReferences">
+    <Error Condition="!Exists('$(SptRuntime)/SPTarkov.Server.Core.dll')" Text="SPTarkov.Server.Core.dll not found in '$(SptRuntime)'. Build with -p:SptRuntime=&quot;path\to\SPT\SPT_Runtime&quot;" />
+  </Target>
+  <ItemGroup>
+    <None Update="config.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="db\**\*" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="LICENSE" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

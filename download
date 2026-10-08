@@ -1,0 +1,6 @@
+bin/
+obj/
+release/
+*.zip
+.vs/
+*.user

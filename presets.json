@@ -1,0 +1,3431 @@
+[
+  {
+    "name": "Gunsmith - Part 1",
+    "quest": "Gunsmith - Part 1",
+    "items": [
+      {
+        "_id": "5a436d660efd326573869821",
+        "_tpl": "54491c4f4bdc2db1078b4568",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "8b4262dd6b55f11dad980f1f",
+        "_tpl": "55d4491a4bdc2d882f8b456e",
+        "parentId": "5a436d660efd326573869821",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "fd89bd1b7768a7c07a9ad467",
+        "_tpl": "55d45f484bdc2d972f8b456d",
+        "parentId": "5a436d660efd326573869821",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "b53d23018dd3cc0983eaed4b",
+        "_tpl": "55d484b44bdc2d1d4e8b456d",
+        "parentId": "5a436d660efd326573869821",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "68e7cdbac1e3b343c3fdfc71",
+        "_tpl": "56083a334bdc2dc8488b4571",
+        "parentId": "5a436d660efd326573869821",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "a368cbc06339943864e79a27",
+        "_tpl": "5c0111ab0db834001966914d",
+        "parentId": "8b4262dd6b55f11dad980f1f",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "b6ab20c91c2c1d5bbac7deef",
+        "_tpl": "5c1bc7752e221602b1779b34",
+        "parentId": "fd89bd1b7768a7c07a9ad467",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "032ee06d089e1ffc902f4c51",
+        "_tpl": "5cc9c20cd7f00c001336c65d",
+        "parentId": "fd89bd1b7768a7c07a9ad467",
+        "slotId": "mod_tactical_000",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      },
+      {
+        "_id": "a522bc7c2a1359156a4b1070",
+        "_tpl": "58272d7f2459774f6311ddfd",
+        "parentId": "a368cbc06339943864e79a27",
+        "slotId": "mod_muzzle"
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 2",
+    "quest": "Gunsmith - Part 2",
+    "items": [
+      {
+        "_id": "f77367658dee25bc575023eb",
+        "_tpl": "57dc2fa62459775949412633",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "Foldable": {
+            "Folded": true
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "9105e252a92998ae1aa8e4c1",
+        "_tpl": "5649ae4a4bdc2d1b2b8b4588",
+        "parentId": "f77367658dee25bc575023eb",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "8fc4d7482d79a0fb653d9e1a",
+        "_tpl": "59ecc28286f7746d7a68aa8c",
+        "parentId": "f77367658dee25bc575023eb",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "c5ee976670ff0ea10c0e6d46",
+        "_tpl": "5648ac824bdc2ded0b8b457d",
+        "parentId": "f77367658dee25bc575023eb",
+        "slotId": "mod_charge"
+      },
+      {
+        "_id": "21f8d480bc6e1b34dcc74db5",
+        "_tpl": "55d482194bdc2d1d4e8b456b",
+        "parentId": "f77367658dee25bc575023eb",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "be26d707f9db7bf6b9bdebab",
+        "_tpl": "5649ab884bdc2ded0b8b457f",
+        "parentId": "f77367658dee25bc575023eb",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "831cb57fb5104814ed48b90a",
+        "_tpl": "57dc334d245977597164366f",
+        "parentId": "f77367658dee25bc575023eb",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "98ab94270284a214f4103b94",
+        "_tpl": "59d36a0086f7747e673f3946",
+        "parentId": "f77367658dee25bc575023eb",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "74baa185aa80ff604e950160",
+        "_tpl": "59ecc3dd86f7746dc827481c",
+        "parentId": "8fc4d7482d79a0fb653d9e1a",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "50d8bdcdf06e2344bc34d771",
+        "_tpl": "57ffa9f4245977728561e844",
+        "parentId": "98ab94270284a214f4103b94",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "a5beed4f0acad0dd2da7797e",
+        "_tpl": "59fc48e086f77463b1118392",
+        "parentId": "50d8bdcdf06e2344bc34d771",
+        "slotId": "mod_foregrip"
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 3",
+    "quest": "Gunsmith - Part 3",
+    "items": [
+      {
+        "_id": "ff7d5609e0385e9594db619f",
+        "_tpl": "5926bb2186f7744b1c6c6e60",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "2a0da750709b82b477e210a3",
+        "_tpl": "5a351711c4a282000b1521a4",
+        "parentId": "ff7d5609e0385e9594db619f",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "dd8ed0be17db5d195fcc2225",
+        "_tpl": "5926f2e086f7745aae644231",
+        "parentId": "ff7d5609e0385e9594db619f",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "f579f965f7c28dd36e889bb2",
+        "_tpl": "5926c32286f774616e42de99",
+        "parentId": "ff7d5609e0385e9594db619f",
+        "slotId": "mod_charge"
+      },
+      {
+        "_id": "2d35a3d93674d73696fe03d3",
+        "_tpl": "5926f34786f77469195bfe92",
+        "parentId": "dd8ed0be17db5d195fcc2225",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "afa4c1b7efcf52af8edb34d4",
+        "_tpl": "5926d2be86f774134d668e4e",
+        "parentId": "dd8ed0be17db5d195fcc2225",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "7dacd5e17df1f4c0a9b2a0e3",
+        "_tpl": "5926d40686f7740f152b6b7e",
+        "parentId": "dd8ed0be17db5d195fcc2225",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "623391f37c672df250a89c1a",
+        "_tpl": "5926d33d86f77410de68ebc0",
+        "parentId": "dd8ed0be17db5d195fcc2225",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "9b22f79b8506af552beb9569",
+        "_tpl": "59c63b4486f7747afb151c1c",
+        "parentId": "623391f37c672df250a89c1a",
+        "slotId": "mod_mount"
+      },
+      {
+        "_id": "26914293c1163b347a826932",
+        "_tpl": "5cc9c20cd7f00c001336c65d",
+        "parentId": "9b22f79b8506af552beb9569",
+        "slotId": "mod_tactical_000",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 4",
+    "quest": "Gunsmith - Part 4",
+    "items": [
+      {
+        "_id": "506b97f8410b594e23cfd2f5",
+        "_tpl": "587e02ff24597743df3deaeb",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "37a67b1eaaabba71a6296ab3",
+        "_tpl": "5afd7ded5acfc40017541f5e",
+        "parentId": "506b97f8410b594e23cfd2f5",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "7cdabb8a5df1349f2ea14e7e",
+        "_tpl": "634eff66517ccc8a960fc735",
+        "parentId": "506b97f8410b594e23cfd2f5",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "b184681cae6e201779d53ea0",
+        "_tpl": "587df583245977373c4f1129",
+        "parentId": "506b97f8410b594e23cfd2f5",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "96d245fc564f93550b699a3d",
+        "_tpl": "6415d33eda439c6a97048b5b",
+        "parentId": "506b97f8410b594e23cfd2f5",
+        "slotId": "mod_mount"
+      },
+      {
+        "_id": "f5bd30ebb25ae5065b500de5",
+        "_tpl": "634f06262e5def262d0b30ca",
+        "parentId": "506b97f8410b594e23cfd2f5",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "3dc5827cee905392ca44667c",
+        "_tpl": "5afd7e095acfc40017541f61",
+        "parentId": "37a67b1eaaabba71a6296ab3",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "e7fb2891088508a7c0059aea",
+        "_tpl": "653ed19d22e1ef3d9002c328",
+        "parentId": "37a67b1eaaabba71a6296ab3",
+        "slotId": "mod_mount"
+      },
+      {
+        "_id": "e7cc2915c19b6442dc04ccfc",
+        "_tpl": "5afd7e445acfc4001637e35a",
+        "parentId": "37a67b1eaaabba71a6296ab3",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "e2899fbe31e179e5de6a3346",
+        "_tpl": "634f05a21f9f536910079b56",
+        "parentId": "7cdabb8a5df1349f2ea14e7e",
+        "slotId": "mod_mount_000"
+      },
+      {
+        "_id": "cde46eedab9339cad493428e",
+        "_tpl": "593d490386f7745ee97a1555",
+        "parentId": "7cdabb8a5df1349f2ea14e7e",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "2e287f029dbd7375036612da",
+        "_tpl": "5dff77c759400025ea5150cf",
+        "parentId": "96d245fc564f93550b699a3d",
+        "slotId": "mod_scope"
+      },
+      {
+        "_id": "37f5f4b1aeedc8f73eaade0a",
+        "_tpl": "6516e91f609aaf354b34b3e2",
+        "parentId": "3dc5827cee905392ca44667c",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "b04bf6f955c93e16895a74a2",
+        "_tpl": "59fc48e086f77463b1118392",
+        "parentId": "e7fb2891088508a7c0059aea",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "4c9a9794126b8d6cf4e9cd08",
+        "_tpl": "6516e9bc5901745209404287",
+        "parentId": "37f5f4b1aeedc8f73eaade0a",
+        "slotId": "mod_stock_000"
+      },
+      {
+        "_id": "cad943d4b669dd034b8130a6",
+        "_tpl": "634f036a517ccc8a960fc746",
+        "parentId": "e2899fbe31e179e5de6a3346",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "ad022f352233b609768d168a",
+        "_tpl": "574db213245977459a2f3f5d",
+        "parentId": "e2899fbe31e179e5de6a3346",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "79228d9f78919ce6201d4a23",
+        "_tpl": "653ecd065a1690d9d90491e6",
+        "parentId": "cad943d4b669dd034b8130a6",
+        "slotId": "mod_mount_000"
+      },
+      {
+        "_id": "9712b46ad3e9800d134e8814",
+        "_tpl": "5dff772da3651922b360bf91",
+        "parentId": "2e287f029dbd7375036612da",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 5",
+    "quest": "Gunsmith - Part 5",
+    "items": [
+      {
+        "_id": "bd162e7daf7b595ca28c5818",
+        "_tpl": "5a7828548dc32e5a9c28b516",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "302241050878535993cc6aa3",
+        "_tpl": "5a787f7ac5856700177af660",
+        "parentId": "bd162e7daf7b595ca28c5818",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "a7516c8bc0558ac8db1c5ba9",
+        "_tpl": "5a788068c5856700137e4c8f",
+        "parentId": "bd162e7daf7b595ca28c5818",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "d33b1e065742a3133e0d7bcc",
+        "_tpl": "5a78830bc5856700137e4c90",
+        "parentId": "bd162e7daf7b595ca28c5818",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "de4d338bfac6ebc56e4fa5ee",
+        "_tpl": "5a78813bc5856700186c4abe",
+        "parentId": "bd162e7daf7b595ca28c5818",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "d4ac28e72ae4f6ab8a66686c",
+        "_tpl": "5c0111ab0db834001966914d",
+        "parentId": "302241050878535993cc6aa3",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "3579f3e5708e42bd90036a69",
+        "_tpl": "5b7be4895acfc400170e2dd5",
+        "parentId": "a7516c8bc0558ac8db1c5ba9",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "64ab079ef11dff7597d32454",
+        "_tpl": "6269220d70b6c02e665f2635",
+        "parentId": "a7516c8bc0558ac8db1c5ba9",
+        "slotId": "mod_mount_000"
+      },
+      {
+        "_id": "303d3491b0aa58571faacb71",
+        "_tpl": "58272d7f2459774f6311ddfd",
+        "parentId": "d4ac28e72ae4f6ab8a66686c",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "3ab9a114c7cbe125c9f8746a",
+        "_tpl": "59fc48e086f77463b1118392",
+        "parentId": "3579f3e5708e42bd90036a69",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "449c069c593d1b93ef916003",
+        "_tpl": "5cc9c20cd7f00c001336c65d",
+        "parentId": "64ab079ef11dff7597d32454",
+        "slotId": "mod_tactical",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 6",
+    "quest": "Gunsmith - Part 6",
+    "items": [
+      {
+        "_id": "47c15391f1686e7c757b82ed",
+        "_tpl": "59d6088586f774275f37482f",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "19cfb714fae0ca4678ebf915",
+        "_tpl": "59d64ec286f774171d1e0a42",
+        "parentId": "47c15391f1686e7c757b82ed",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "dfa70d07821ec99273b9739c",
+        "_tpl": "593d489686f7745c6255d58a",
+        "parentId": "47c15391f1686e7c757b82ed",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "52baa82a1639aeb77b790b37",
+        "_tpl": "5649ae4a4bdc2d1b2b8b4588",
+        "parentId": "47c15391f1686e7c757b82ed",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "726a325c43d2705824e0cab0",
+        "_tpl": "5d2c770c48f0354b4a07c100",
+        "parentId": "47c15391f1686e7c757b82ed",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "a2f4fe13bd53cb84d62f5ef0",
+        "_tpl": "59d650cf86f7741b846413a4",
+        "parentId": "47c15391f1686e7c757b82ed",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "d0aef7a6a72d1858915eba22",
+        "_tpl": "5b222d335acfc4771e1be099",
+        "parentId": "47c15391f1686e7c757b82ed",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "8fc2bd6bcbe32b97822ff43f",
+        "_tpl": "59d6272486f77466146386ff",
+        "parentId": "47c15391f1686e7c757b82ed",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "c951466399b466a18f1c0b8b",
+        "_tpl": "5648ac824bdc2ded0b8b457d",
+        "parentId": "47c15391f1686e7c757b82ed",
+        "slotId": "mod_charge"
+      },
+      {
+        "_id": "206285e830b9151affa8a2da",
+        "_tpl": "5648b4534bdc2d3d1c8b4580",
+        "parentId": "19cfb714fae0ca4678ebf915",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "be4dd8063b1222824e67f233",
+        "_tpl": "59db7eed86f77461f8380365",
+        "parentId": "726a325c43d2705824e0cab0",
+        "slotId": "mod_scope"
+      },
+      {
+        "_id": "c38b2a1db48acb380cb1f9fb",
+        "_tpl": "5b222d405acfc400153af4fe",
+        "parentId": "d0aef7a6a72d1858915eba22",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "85eff0f8d7ff92dbc57a9d7b",
+        "_tpl": "59f8a37386f7747af3328f06",
+        "parentId": "206285e830b9151affa8a2da",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "19ddf43a070d3863a0f4ca5c",
+        "_tpl": "5c05293e0db83400232fff80",
+        "parentId": "be4dd8063b1222824e67f233",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "e2d348681127e53c8922d4ac",
+        "_tpl": "5c05295e0db834001a66acbb",
+        "parentId": "19ddf43a070d3863a0f4ca5c",
+        "slotId": "mod_mount",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "db7c8c60051721b739364df3",
+        "_tpl": "5a0c59791526d8dba737bba7",
+        "parentId": "c38b2a1db48acb380cb1f9fb",
+        "slotId": "mod_stock_000"
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 7",
+    "quest": "Gunsmith - Part 7",
+    "items": [
+      {
+        "_id": "bd2be74ca8fab8f7faa6ed7d",
+        "_tpl": "5447a9cd4bdc2dbd208b4567",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "e84c18fc635af796f488cf06",
+        "_tpl": "5d15cf3bd7ad1a67e71518b2",
+        "parentId": "bd2be74ca8fab8f7faa6ed7d",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "48ac14a7fb3dcb0ffc584df2",
+        "_tpl": "59c1383d86f774290a37e0ca",
+        "parentId": "bd2be74ca8fab8f7faa6ed7d",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "a316953d407304e9c5481851",
+        "_tpl": "55d355e64bdc2d962f8b4569",
+        "parentId": "bd2be74ca8fab8f7faa6ed7d",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "9f691abd025156b30cb809b0",
+        "_tpl": "638de3603a1a4031d8260b8c",
+        "parentId": "bd2be74ca8fab8f7faa6ed7d",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "31f09767a83f58b6a5bd1ab7",
+        "_tpl": "5f633ff5c444ce7e3c30a006",
+        "parentId": "bd2be74ca8fab8f7faa6ed7d",
+        "slotId": "mod_charge"
+      },
+      {
+        "_id": "991ee649b12f84325dd079c7",
+        "_tpl": "5c1cdd302e221602b3137250",
+        "parentId": "a316953d407304e9c5481851",
+        "slotId": "mod_scope"
+      },
+      {
+        "_id": "57cf039a5f809b484b42ebfb",
+        "_tpl": "55d35ee94bdc2d61338b4568",
+        "parentId": "a316953d407304e9c5481851",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "f930551ac082c67a6eb584ef",
+        "_tpl": "5ea16acdfadf1d18c87b0784",
+        "parentId": "a316953d407304e9c5481851",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "dc724c50e57d31f2725b0fe0",
+        "_tpl": "5c18b9192e2216398b5a8104",
+        "parentId": "a316953d407304e9c5481851",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "b3be22d54488dceb1625c926",
+        "_tpl": "58d2946386f774496974c37e",
+        "parentId": "9f691abd025156b30cb809b0",
+        "slotId": "mod_stock_000"
+      },
+      {
+        "_id": "27d1a3a380f3e8440b2fd7a5",
+        "_tpl": "5c052a900db834001a66acbd",
+        "parentId": "991ee649b12f84325dd079c7",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "9bd30ba2a82ada7f85fac52a",
+        "_tpl": "5ea172e498dacb342978818e",
+        "parentId": "57cf039a5f809b484b42ebfb",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "707162e7596cf5f32cdc69ac",
+        "_tpl": "5d00ec68d7ad1a04a067e5be",
+        "parentId": "57cf039a5f809b484b42ebfb",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "03116125d7b87e4b1f3ae204",
+        "_tpl": "57cffcd624597763133760c5",
+        "parentId": "f930551ac082c67a6eb584ef",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "3d20777a402e00f0fd686cf6",
+        "_tpl": "5c18b90d2e2216152142466b",
+        "parentId": "f930551ac082c67a6eb584ef",
+        "slotId": "mod_sight_front",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "2e8e700a5e44bab4db357610",
+        "_tpl": "5c05295e0db834001a66acbb",
+        "parentId": "27d1a3a380f3e8440b2fd7a5",
+        "slotId": "mod_mount",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "c609cb9815b0afedc4ea7f95",
+        "_tpl": "55d6190f4bdc2d87028b4567",
+        "parentId": "9bd30ba2a82ada7f85fac52a",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "2920579a9a06d42f49f69ecc",
+        "_tpl": "58d2912286f7744e27117493",
+        "parentId": "b3be22d54488dceb1625c926",
+        "slotId": "mod_stock"
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 8",
+    "quest": "Gunsmith - Part 8",
+    "items": [
+      {
+        "_id": "488ed192cc55e3edef1235ff",
+        "_tpl": "5ab8e9fcd8ce870019439434",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "Foldable": {
+            "Folded": false
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "1417bc980c0c2817357ec191",
+        "_tpl": "59c6633186f7740cf0493bb9",
+        "parentId": "488ed192cc55e3edef1235ff",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "9ae354190557b8205813fdbc",
+        "_tpl": "5649ab884bdc2ded0b8b457f",
+        "parentId": "488ed192cc55e3edef1235ff",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "88fc20a02fdbf748ed2383bc",
+        "_tpl": "5649ae4a4bdc2d1b2b8b4588",
+        "parentId": "488ed192cc55e3edef1235ff",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "a7525f736572494078ea5164",
+        "_tpl": "5649af884bdc2d1b2b8b4589",
+        "parentId": "488ed192cc55e3edef1235ff",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "624cf51972c0ea387a7695d0",
+        "_tpl": "5649b0544bdc2d1b2b8b458a",
+        "parentId": "488ed192cc55e3edef1235ff",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "5ebff6e160f44be8efa3da4a",
+        "_tpl": "59ecc28286f7746d7a68aa8c",
+        "parentId": "488ed192cc55e3edef1235ff",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "8a09b96130b0b9c296130b26",
+        "_tpl": "5bed61680db834001d2c45ab",
+        "parentId": "488ed192cc55e3edef1235ff",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "c3710f9efd928616e1e55535",
+        "_tpl": "5648ac824bdc2ded0b8b457d",
+        "parentId": "488ed192cc55e3edef1235ff",
+        "slotId": "mod_charge"
+      },
+      {
+        "_id": "09f7c1f99b157cce47b1e7c6",
+        "_tpl": "5efaf417aeb21837e749c7f2",
+        "parentId": "1417bc980c0c2817357ec191",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "b60474e1cb10dadc8fe36487",
+        "_tpl": "57ae0171245977343c27bfcf",
+        "parentId": "a7525f736572494078ea5164",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "4f95cf0212981905145b9605",
+        "_tpl": "59ecc3dd86f7746dc827481c",
+        "parentId": "5ebff6e160f44be8efa3da4a",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "3d3a2d52bfb1db9859e8a471",
+        "_tpl": "5c1bc4812e22164bef5cfde7",
+        "parentId": "09f7c1f99b157cce47b1e7c6",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "6ac1145e9bc4a1cf6c272d55",
+        "_tpl": "5a5f1ce64f39f90b401987bc",
+        "parentId": "09f7c1f99b157cce47b1e7c6",
+        "slotId": "mod_tactical_000",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 9",
+    "quest": "Gunsmith - Part 9",
+    "items": [
+      {
+        "_id": "7034f20923a2658da15ce8f1",
+        "_tpl": "56d59856d2720bd8418b456a",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "f790bbe3dae9fa3ccff7ebfd",
+        "_tpl": "587de4282459771bca0ec90b",
+        "parentId": "7034f20923a2658da15ce8f1",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "6cce98785d1c9013358c5a75",
+        "_tpl": "5c00076d0db834001d23ee1f",
+        "parentId": "7034f20923a2658da15ce8f1",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "9b0b3522f7fe8980a5b13fdd",
+        "_tpl": "5c0009510db834001966907f",
+        "parentId": "7034f20923a2658da15ce8f1",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "d4d8faea2c38b3478584b895",
+        "_tpl": "5c920e902e221644f31c3c99",
+        "parentId": "7034f20923a2658da15ce8f1",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "e0de75161c5a1453598adfc0",
+        "_tpl": "6272370ee4013c5d7e31f418",
+        "parentId": "7034f20923a2658da15ce8f1",
+        "slotId": "mod_tactical",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      },
+      {
+        "_id": "83c09a4ed4b4d760928d6e41",
+        "_tpl": "5c6beec32e221601da3578f2",
+        "parentId": "f790bbe3dae9fa3ccff7ebfd",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "2303ff89c016890179c122c6",
+        "_tpl": "56d5a77ed2720b90418b4568",
+        "parentId": "9b0b3522f7fe8980a5b13fdd",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "5bd6ddff285b397a9734cf1a",
+        "_tpl": "56d5a661d2720bd8418b456b",
+        "parentId": "9b0b3522f7fe8980a5b13fdd",
+        "slotId": "mod_sight_front",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 10",
+    "quest": "Gunsmith - Part 10",
+    "items": [
+      {
+        "_id": "482c90c318adfb875ece8e5b",
+        "_tpl": "5ac66d9b5acfc4001633997a",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "Foldable": {
+            "Folded": false
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "778f4391fa00943511fc7f47",
+        "_tpl": "59c6633186f7740cf0493bb9",
+        "parentId": "482c90c318adfb875ece8e5b",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "d9bc5fad1206a043f4e47bf9",
+        "_tpl": "59bffc1f86f77435b128b872",
+        "parentId": "482c90c318adfb875ece8e5b",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "0d8c51cda044f8e5202515d8",
+        "_tpl": "5b30ac585acfc433000eb79c",
+        "parentId": "482c90c318adfb875ece8e5b",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "dc1002bde136baad8e07c54c",
+        "_tpl": "628a665a86cbd9750d2ff5e5",
+        "parentId": "482c90c318adfb875ece8e5b",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "538a9133955e130807fe3fb2",
+        "_tpl": "649ec87d8007560a9001ab36",
+        "parentId": "482c90c318adfb875ece8e5b",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "fbaf5f8675b34836a058c8cf",
+        "_tpl": "55d482194bdc2d1d4e8b456b",
+        "parentId": "482c90c318adfb875ece8e5b",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "545404de5e2d93a80499549f",
+        "_tpl": "63d114019e35b334d82302f7",
+        "parentId": "482c90c318adfb875ece8e5b",
+        "slotId": "mod_mount_000"
+      },
+      {
+        "_id": "37b5e3da90b2cd360c537082",
+        "_tpl": "5648ac824bdc2ded0b8b457d",
+        "parentId": "482c90c318adfb875ece8e5b",
+        "slotId": "mod_charge"
+      },
+      {
+        "_id": "f303498b8f0ed2eb4772f864",
+        "_tpl": "647dba3142c479dde701b654",
+        "parentId": "778f4391fa00943511fc7f47",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "42f76de37cfe8cd5cca2d50a",
+        "_tpl": "59bffbb386f77435b379b9c2",
+        "parentId": "d9bc5fad1206a043f4e47bf9",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "dab8f5e11fb1b3fb81f2bc86",
+        "_tpl": "56eabf3bd2720b75698b4569",
+        "parentId": "538a9133955e130807fe3fb2",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "b5e63f3fda90af1e4892c02b",
+        "_tpl": "5c1cdd302e221602b3137250",
+        "parentId": "545404de5e2d93a80499549f",
+        "slotId": "mod_scope"
+      },
+      {
+        "_id": "132f431a93eec713fbca88c5",
+        "_tpl": "59fc48e086f77463b1118392",
+        "parentId": "f303498b8f0ed2eb4772f864",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "df0902248b227a8026b0e317",
+        "_tpl": "58d2912286f7744e27117493",
+        "parentId": "dab8f5e11fb1b3fb81f2bc86",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "8f741f6f0fec95dd31537227",
+        "_tpl": "5c05293e0db83400232fff80",
+        "parentId": "b5e63f3fda90af1e4892c02b",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "53fb72e43376260205950aec",
+        "_tpl": "5c05295e0db834001a66acbb",
+        "parentId": "8f741f6f0fec95dd31537227",
+        "slotId": "mod_mount",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 11",
+    "quest": "Gunsmith - Part 11",
+    "items": [
+      {
+        "_id": "9225f8ad4adc46c576fd8420",
+        "_tpl": "5fc3f2d5900b1d5091531e57",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "Foldable": {
+            "Folded": false
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "74a0c7707c390fb5e219865c",
+        "_tpl": "5a7ad2e851dfba0016153692",
+        "parentId": "9225f8ad4adc46c576fd8420",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "cf1666f5cc3566a35b3dead3",
+        "_tpl": "5fb6567747ce63734e3fa1dc",
+        "parentId": "9225f8ad4adc46c576fd8420",
+        "slotId": "mod_sight_front",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "406446e744b2f796ceba5620",
+        "_tpl": "5fb6564947ce63734e3fa1da",
+        "parentId": "9225f8ad4adc46c576fd8420",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "719d324529bce71c0611e73b",
+        "_tpl": "58d2664f86f7747fec5834f6",
+        "parentId": "9225f8ad4adc46c576fd8420",
+        "slotId": "mod_scope"
+      },
+      {
+        "_id": "34b4e44a28ae7cd5a74d364e",
+        "_tpl": "5fb655b748c711690e3a8d5a",
+        "parentId": "9225f8ad4adc46c576fd8420",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "f38de56fa035627eb459bbe6",
+        "_tpl": "5fbbc383d5cb881a7363194a",
+        "parentId": "9225f8ad4adc46c576fd8420",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "854ab0c4f5081af0e64995d2",
+        "_tpl": "5fbb978207e8a97d1f0902d3",
+        "parentId": "9225f8ad4adc46c576fd8420",
+        "slotId": "mod_mount"
+      },
+      {
+        "_id": "585ae3c2b56e9d51eb5d8368",
+        "_tpl": "58d268fc86f774111273f8c2",
+        "parentId": "719d324529bce71c0611e73b",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "9e4a403f0acc8bc955da80b4",
+        "_tpl": "5c793fb92e221644f31bfb64",
+        "parentId": "34b4e44a28ae7cd5a74d364e",
+        "slotId": "mod_stock_000"
+      },
+      {
+        "_id": "92696f3ddff58e8f452c6be4",
+        "_tpl": "5a32a064c4a28200741e22de",
+        "parentId": "f38de56fa035627eb459bbe6",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "3f7beb09df4f28b28671ca79",
+        "_tpl": "5f6340d3ca442212f4047eb2",
+        "parentId": "854ab0c4f5081af0e64995d2",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "8dd7d89282b530cad1e786c1",
+        "_tpl": "5fce16961f152d4312622bc9",
+        "parentId": "9e4a403f0acc8bc955da80b4",
+        "slotId": "mod_stock_000"
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 12",
+    "quest": "Gunsmith - Part 12",
+    "items": [
+      {
+        "_id": "b1488e916f9a2e4cacc4371f",
+        "_tpl": "58948c8e86f77409493f7266",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "afd3bf757b0a3b7daf579ef3",
+        "_tpl": "5b07db875acfc40dc528a5f6",
+        "parentId": "b1488e916f9a2e4cacc4371f",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "103db77fdeadd5728482e45d",
+        "_tpl": "5c5db6652e221600113fba51",
+        "parentId": "b1488e916f9a2e4cacc4371f",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "23f4fda82310231382d2d24d",
+        "_tpl": "5894a5b586f77426d2590767",
+        "parentId": "b1488e916f9a2e4cacc4371f",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "8afab811d21c746e9147240f",
+        "_tpl": "5c5db6f82e2216003a0fe914",
+        "parentId": "b1488e916f9a2e4cacc4371f",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "70b9f3139ec45a3b8decebba",
+        "_tpl": "5c5db6b32e221600102611a0",
+        "parentId": "b1488e916f9a2e4cacc4371f",
+        "slotId": "mod_charge"
+      },
+      {
+        "_id": "07bd17b2ca996580637f44f9",
+        "_tpl": "59f9d81586f7744c7506ee62",
+        "parentId": "23f4fda82310231382d2d24d",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "9984f796df5acb051fed33d5",
+        "_tpl": "5c5db5c62e22160012542255",
+        "parentId": "23f4fda82310231382d2d24d",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "469bd8858a3bab868d0fb061",
+        "_tpl": "5c59529a2e221602b177d160",
+        "parentId": "23f4fda82310231382d2d24d",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "287c1929c3dde47cf2149ea0",
+        "_tpl": "5b3a16655acfc40016387a2a",
+        "parentId": "9984f796df5acb051fed33d5",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "ee48597256a95a4230f84e91",
+        "_tpl": "6269220d70b6c02e665f2635",
+        "parentId": "469bd8858a3bab868d0fb061",
+        "slotId": "mod_mount_004"
+      },
+      {
+        "_id": "5fd0ceda9e230b77f11ccd70",
+        "_tpl": "57cffb66245977632f391a99",
+        "parentId": "469bd8858a3bab868d0fb061",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "7ed86cfc3ab238a6d99ce1c2",
+        "_tpl": "5b07dd285acfc4001754240d",
+        "parentId": "ee48597256a95a4230f84e91",
+        "slotId": "mod_tactical",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 13",
+    "quest": "Gunsmith - Part 13",
+    "items": [
+      {
+        "_id": "b3a317311aeebfceb93e659d",
+        "_tpl": "5a367e5dc4a282000e49738f",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "3af3f68287e45fa5dc5a2afa",
+        "_tpl": "57af48872459771f0b2ebf11",
+        "parentId": "b3a317311aeebfceb93e659d",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "1d7193a441a780675cbfea83",
+        "_tpl": "5a3501acc4a282000d72293a",
+        "parentId": "b3a317311aeebfceb93e659d",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "1859c47635b5c66dfb07ee1f",
+        "_tpl": "5c793fc42e221600114ca25d",
+        "parentId": "b3a317311aeebfceb93e659d",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "a00e3a0a3bdb9e52a883e298",
+        "_tpl": "5a329052c4a28200741e22d3",
+        "parentId": "b3a317311aeebfceb93e659d",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "1d449b762e7f06345f97b13a",
+        "_tpl": "5a34f7f1c4a2826c6e06d75d",
+        "parentId": "b3a317311aeebfceb93e659d",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "29357f83671cb8011b14668e",
+        "_tpl": "618bab21526131765025ab3f",
+        "parentId": "b3a317311aeebfceb93e659d",
+        "slotId": "mod_scope"
+      },
+      {
+        "_id": "4da427c1d8e2a65b571114ba",
+        "_tpl": "5c18b9192e2216398b5a8104",
+        "parentId": "b3a317311aeebfceb93e659d",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "839d4e950bfee7d8fc07a5b7",
+        "_tpl": "5d135ecbd7ad1a21c176542e",
+        "parentId": "1859c47635b5c66dfb07ee1f",
+        "slotId": "mod_stock_000"
+      },
+      {
+        "_id": "baaf0a4db094f462b3ef62bc",
+        "_tpl": "57cffcd624597763133760c5",
+        "parentId": "a00e3a0a3bdb9e52a883e298",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "ea6cce2d39f5eab84467350b",
+        "_tpl": "5d443f8fa4b93678dd4a01aa",
+        "parentId": "1d449b762e7f06345f97b13a",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "76e1afd2ea853a9178f250e7",
+        "_tpl": "5a34fbadc4a28200741e230a",
+        "parentId": "1d449b762e7f06345f97b13a",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "0b5a9cb34eb7cbdd5ec46eb6",
+        "_tpl": "617151c1d92c473c770214ab",
+        "parentId": "29357f83671cb8011b14668e",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "67808f5e96c7aba627bc3169",
+        "_tpl": "618ba91477b82356f91ae0e8",
+        "parentId": "29357f83671cb8011b14668e",
+        "slotId": "mod_mount"
+      },
+      {
+        "_id": "088aa0665c20b06cd9218601",
+        "_tpl": "5d44064fa4b9361e4f6eb8b5",
+        "parentId": "ea6cce2d39f5eab84467350b",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "740861f0c5e8d76d1190005b",
+        "_tpl": "5c18b90d2e2216152142466b",
+        "parentId": "76e1afd2ea853a9178f250e7",
+        "slotId": "mod_sight_front",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 14",
+    "quest": "Gunsmith - Part 14",
+    "items": [
+      {
+        "_id": "5cd7fcc332dbf18bacf1dcd9",
+        "_tpl": "5bb2475ed4351e00853264e3",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "cbd8a34961963e09b5415bf7",
+        "_tpl": "5d15cf3bd7ad1a67e71518b2",
+        "parentId": "5cd7fcc332dbf18bacf1dcd9",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "38adcf41939ed03076366bdd",
+        "_tpl": "5c6d46132e221601da357d56",
+        "parentId": "5cd7fcc332dbf18bacf1dcd9",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "551364667d79e0bc5662325f",
+        "_tpl": "5bb20d53d4351e4502010a69",
+        "parentId": "5cd7fcc332dbf18bacf1dcd9",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "ac35ae976f56b0116bb6a96f",
+        "_tpl": "5947eab886f77475961d96c5",
+        "parentId": "5cd7fcc332dbf18bacf1dcd9",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "26c4a9ff2b00c84b08de86d7",
+        "_tpl": "5d44334ba4b9362b346d1948",
+        "parentId": "5cd7fcc332dbf18bacf1dcd9",
+        "slotId": "mod_charge"
+      },
+      {
+        "_id": "b24a6ed1902921d1d7f54da2",
+        "_tpl": "558022b54bdc2dac148b458d",
+        "parentId": "551364667d79e0bc5662325f",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "ebed7c63de31544c13d4bb55",
+        "_tpl": "5bb20d92d4351e00853263eb",
+        "parentId": "551364667d79e0bc5662325f",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "e0d159900c7a94740d0c7dbd",
+        "_tpl": "5c6d10fa2e221600106f3f23",
+        "parentId": "551364667d79e0bc5662325f",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "95fbbe10da7d6ae296fce464",
+        "_tpl": "5c18b9192e2216398b5a8104",
+        "parentId": "551364667d79e0bc5662325f",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "68305f32069d148f44d00864",
+        "_tpl": "5ea172e498dacb342978818e",
+        "parentId": "ebed7c63de31544c13d4bb55",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "307460d3eb24ad02938a949b",
+        "_tpl": "5bb20dcad4351e3bac1212da",
+        "parentId": "ebed7c63de31544c13d4bb55",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "ec4cafae4eca4586eff6f9a8",
+        "_tpl": "5c06595c0db834001a66af6c",
+        "parentId": "e0d159900c7a94740d0c7dbd",
+        "slotId": "mod_tactical",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      },
+      {
+        "_id": "74197f84237f13286510f01c",
+        "_tpl": "5b7be4895acfc400170e2dd5",
+        "parentId": "e0d159900c7a94740d0c7dbd",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "ccc8f1360fb3b376cf033ced",
+        "_tpl": "5c18b90d2e2216152142466b",
+        "parentId": "e0d159900c7a94740d0c7dbd",
+        "slotId": "mod_sight_front",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "2bf8012ffb53f958ddd2d1cb",
+        "_tpl": "5ea17bbc09aa976f2e7a51cd",
+        "parentId": "68305f32069d148f44d00864",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "d4323c423635e9cddf90cdc8",
+        "_tpl": "5fce0cf655375d18a253eff0",
+        "parentId": "74197f84237f13286510f01c",
+        "slotId": "mod_foregrip"
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 15",
+    "quest": "Gunsmith - Part 15",
+    "items": [
+      {
+        "_id": "8fbdb2af6ad2d54e0b1970a9",
+        "_tpl": "57c44b372459772d2b39b8ce",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "Foldable": {
+            "Folded": false
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "1a9a7ef98bdea65cb2753f82",
+        "_tpl": "57c44dd02459772d2e0ae249",
+        "parentId": "8fbdb2af6ad2d54e0b1970a9",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "a94362d6d87c56f57da6e622",
+        "_tpl": "57c44f4f2459772d2c627113",
+        "parentId": "8fbdb2af6ad2d54e0b1970a9",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "b91f9651a8bfa37366714902",
+        "_tpl": "5a9e81fba2750c00164f6b11",
+        "parentId": "8fbdb2af6ad2d54e0b1970a9",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "ea8edc0df45dbd9816adc288",
+        "_tpl": "5a69a2ed8dc32e000d46d1f1",
+        "parentId": "8fbdb2af6ad2d54e0b1970a9",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "61935d54f168b54af54e363f",
+        "_tpl": "5a7c74b3e899ef0014332c29",
+        "parentId": "8fbdb2af6ad2d54e0b1970a9",
+        "slotId": "mod_mount_004",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "dd4f0a53a93053738ac4021d",
+        "_tpl": "57c44e7b2459772d28133248",
+        "parentId": "1a9a7ef98bdea65cb2753f82",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "c36c2469a66fa100638c429b",
+        "_tpl": "59eb7ebe86f7740b373438ce",
+        "parentId": "1a9a7ef98bdea65cb2753f82",
+        "slotId": "mod_mount_000"
+      },
+      {
+        "_id": "ddebd74a35891660cb73c0eb",
+        "_tpl": "5a9eb32da2750c00171b3f9c",
+        "parentId": "ea8edc0df45dbd9816adc288",
+        "slotId": "mod_stock_000"
+      },
+      {
+        "_id": "d45d86aa6e7b9b15cf9df3f9",
+        "_tpl": "5ba36f85d4351e0085325c81",
+        "parentId": "61935d54f168b54af54e363f",
+        "slotId": "mod_tactical"
+      },
+      {
+        "_id": "52ebd6f94d3f1b23f014f6a3",
+        "_tpl": "544909bb4bdc2d6f028b4577",
+        "parentId": "c36c2469a66fa100638c429b",
+        "slotId": "mod_tactical_000",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      },
+      {
+        "_id": "93be61d0a87027975b856731",
+        "_tpl": "59fc48e086f77463b1118392",
+        "parentId": "c36c2469a66fa100638c429b",
+        "slotId": "mod_foregrip"
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 16",
+    "quest": "Gunsmith - Part 16",
+    "items": [
+      {
+        "_id": "fcade43897623220396074f5",
+        "_tpl": "588892092459774ac91d4b11",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "Foldable": {
+            "Folded": false
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "e4252b6ad07ee94fbdb60f77",
+        "_tpl": "5888988e24597752fe43a6fa",
+        "parentId": "fcade43897623220396074f5",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "171da8b72bdbc2ae804036ab",
+        "_tpl": "61713cc4d8e3106d9806c109",
+        "parentId": "fcade43897623220396074f5",
+        "slotId": "mod_scope"
+      },
+      {
+        "_id": "5beedfd4cf1ddce227a1bf11",
+        "_tpl": "5888956924597752983e182d",
+        "parentId": "fcade43897623220396074f5",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "f929f20da23d97015fe93fe3",
+        "_tpl": "57c55f172459772d27602381",
+        "parentId": "fcade43897623220396074f5",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "0466fe886618250ed4f13795",
+        "_tpl": "58889d0c2459775bc215d981",
+        "parentId": "fcade43897623220396074f5",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "7bf3ffb70d5f0944bfeeb792",
+        "_tpl": "62850c28da09541f43158cca",
+        "parentId": "171da8b72bdbc2ae804036ab",
+        "slotId": "mod_scope_000",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "a215ff5226de8bc048653087",
+        "_tpl": "5888996c24597754281f9419",
+        "parentId": "5beedfd4cf1ddce227a1bf11",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "0d890848eefa96125c76b804",
+        "_tpl": "5888976c24597754281f93f5",
+        "parentId": "5beedfd4cf1ddce227a1bf11",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "f6313a638bdb9fceaef533f1",
+        "_tpl": "5cc9c20cd7f00c001336c65d",
+        "parentId": "0d890848eefa96125c76b804",
+        "slotId": "mod_tactical_001",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 17",
+    "quest": "Gunsmith - Part 17",
+    "items": [
+      {
+        "_id": "4294cf326ef7f3a90570b67d",
+        "_tpl": "5ac66d015acfc400180ae6e4",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "Foldable": {
+            "Folded": false
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "bda1da9111a1b06baa6ac3bd",
+        "_tpl": "59c6633186f7740cf0493bb9",
+        "parentId": "4294cf326ef7f3a90570b67d",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "7010fc388af96947e7d16507",
+        "_tpl": "5e21ca18e4d47f0da15e77dd",
+        "parentId": "4294cf326ef7f3a90570b67d",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "826b4442d55c7a5ed5fc88c3",
+        "_tpl": "5b30ac585acfc433000eb79c",
+        "parentId": "4294cf326ef7f3a90570b67d",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "8758c68b3b62548222069064",
+        "_tpl": "5649af884bdc2d1b2b8b4589",
+        "parentId": "4294cf326ef7f3a90570b67d",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "03878be3301570adcc75a736",
+        "_tpl": "5ac733a45acfc400192630e2",
+        "parentId": "4294cf326ef7f3a90570b67d",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "ad515b51b8e1832f4d4ae89f",
+        "_tpl": "5beec8b20db834001961942a",
+        "parentId": "4294cf326ef7f3a90570b67d",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "94bb4272c208d456aa458878",
+        "_tpl": "5c0548ae0db834001966a3c2",
+        "parentId": "4294cf326ef7f3a90570b67d",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "d843142ef28bc251284b13a8",
+        "_tpl": "6130ca3fd92c473c77020dbd",
+        "parentId": "4294cf326ef7f3a90570b67d",
+        "slotId": "mod_charge"
+      },
+      {
+        "_id": "a27df8758e2234428dff8b43",
+        "_tpl": "5648b4534bdc2d3d1c8b4580",
+        "parentId": "bda1da9111a1b06baa6ac3bd",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "d60abed16b727422e38b5c89",
+        "_tpl": "5f6372e2865db925d54f3869",
+        "parentId": "7010fc388af96947e7d16507",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "ddf0713ac3625430c35fa11e",
+        "_tpl": "5c1cdd302e221602b3137250",
+        "parentId": "8758c68b3b62548222069064",
+        "slotId": "mod_scope"
+      },
+      {
+        "_id": "04902788d16fc856e5c4be5c",
+        "_tpl": "58d2946386f774496974c37e",
+        "parentId": "ad515b51b8e1832f4d4ae89f",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "bf40741823509cedcf67e742",
+        "_tpl": "588226ef24597767af46e39c",
+        "parentId": "a27df8758e2234428dff8b43",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "8bc1efeb56a06977e98f5546",
+        "_tpl": "5b3a337e5acfc4704b4a19a0",
+        "parentId": "a27df8758e2234428dff8b43",
+        "slotId": "mod_tactical_002",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      },
+      {
+        "_id": "b28c6263b48429be1a55574a",
+        "_tpl": "5f6339d53ada5942720e2dc3",
+        "parentId": "d60abed16b727422e38b5c89",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "4c193c425510c9d9af51025d",
+        "_tpl": "59db7e1086f77448be30ddf3",
+        "parentId": "ddf0713ac3625430c35fa11e",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "a1141219fe34245435444f71",
+        "_tpl": "58d2912286f7744e27117493",
+        "parentId": "04902788d16fc856e5c4be5c",
+        "slotId": "mod_stock"
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 18",
+    "quest": "Gunsmith - Part 18",
+    "items": [
+      {
+        "_id": "efae0807f22b8061ba515b55",
+        "_tpl": "5a0ec13bfcdbcb00165aa685",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "302d3c9f0edf5f9ba08d1482",
+        "_tpl": "59d64ec286f774171d1e0a42",
+        "parentId": "efae0807f22b8061ba515b55",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "79171a9820a714c5b6d6f630",
+        "_tpl": "5a9fbacda2750c00141e080f",
+        "parentId": "efae0807f22b8061ba515b55",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "6362913b5b507077d65f64c7",
+        "_tpl": "5b30ac585acfc433000eb79c",
+        "parentId": "efae0807f22b8061ba515b55",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "47dbde636756fe2eb8444ca3",
+        "_tpl": "5d2c76ed48f03532f2136169",
+        "parentId": "efae0807f22b8061ba515b55",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "8e236dc1081226acb325579a",
+        "_tpl": "5b0e794b5acfc47a877359b2",
+        "parentId": "efae0807f22b8061ba515b55",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "b17a01f8b6c6c93b38c4fd1a",
+        "_tpl": "59d6272486f77466146386ff",
+        "parentId": "efae0807f22b8061ba515b55",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "664575d17b10fd27fee8d2b4",
+        "_tpl": "5648ac824bdc2ded0b8b457d",
+        "parentId": "efae0807f22b8061ba515b55",
+        "slotId": "mod_charge"
+      },
+      {
+        "_id": "7dae1e2b1215225e25bdb482",
+        "_tpl": "57cff947245977638e6f2a19",
+        "parentId": "302d3c9f0edf5f9ba08d1482",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "1eabc5e1f5528f411e6c7760",
+        "_tpl": "5c07dd120db834001c39092d",
+        "parentId": "47dbde636756fe2eb8444ca3",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "521769930e83c60ff7ee97dc",
+        "_tpl": "57cffb66245977632f391a99",
+        "parentId": "7dae1e2b1215225e25bdb482",
+        "slotId": "mod_mount_003"
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 19",
+    "quest": "Gunsmith - Part 19",
+    "items": [
+      {
+        "_id": "35a386bbfb2e303b3280b030",
+        "_tpl": "5c46fbd72e2216398b5a8c9c",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "Foldable": {
+            "Folded": false
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "7433179425b26dfe52832933",
+        "_tpl": "5b30ac585acfc433000eb79c",
+        "parentId": "088e009ac241c7c5ca858be7",
+        "slotId": "mod_pistolgrip"
+      },
+      {
+        "_id": "3719ec341de94236ad6958ab",
+        "_tpl": "5c471c442e221602b542a6f8",
+        "parentId": "35a386bbfb2e303b3280b030",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "04530fcd285795e2f3c72951",
+        "_tpl": "6197b229af1f5202c57a9bea",
+        "parentId": "35a386bbfb2e303b3280b030",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "c19e2e6da11757696570b4c1",
+        "_tpl": "5c471cb32e221602b177afaa",
+        "parentId": "35a386bbfb2e303b3280b030",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "39087ae650e9b30bb07f3b1b",
+        "_tpl": "5dfcd0e547101c39625f66f9",
+        "parentId": "35a386bbfb2e303b3280b030",
+        "slotId": "mod_mount_001"
+      },
+      {
+        "_id": "0414fe0b3816076af2e499ef",
+        "_tpl": "5dfce88fe9dc277128008b2e",
+        "parentId": "35a386bbfb2e303b3280b030",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "00d611c55a48a1212a5f0598",
+        "_tpl": "5947e98b86f774778f1448bc",
+        "parentId": "04530fcd285795e2f3c72951",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "b041150d59938c94e692e17f",
+        "_tpl": "5c471bfc2e221602b21d4e17",
+        "parentId": "c19e2e6da11757696570b4c1",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "f5bf9f0f0bb6cf59d13a69f7",
+        "_tpl": "5c471c842e221615214259b5",
+        "parentId": "c19e2e6da11757696570b4c1",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "3c660f0bc607ce9d66139251",
+        "_tpl": "5b3b99265acfc4704b4a1afb",
+        "parentId": "39087ae650e9b30bb07f3b1b",
+        "slotId": "mod_scope"
+      },
+      {
+        "_id": "2635ed7dfa6e0f236264febc",
+        "_tpl": "5fc0f9b5d724d907e2077d82",
+        "parentId": "39087ae650e9b30bb07f3b1b",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "83b13b9155ab79746b53ab79",
+        "_tpl": "5c471ba12e221602b3137d76",
+        "parentId": "b041150d59938c94e692e17f",
+        "slotId": "mod_sight_front",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "f5f6ff94706ff5174def8a9c",
+        "_tpl": "5e01e9e273d8eb11426f5bc3",
+        "parentId": "b041150d59938c94e692e17f",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "6342dd8d6855da4ddac15286",
+        "_tpl": "5e01ea19e9dc277128008c0b",
+        "parentId": "f5f6ff94706ff5174def8a9c",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "7cc36fedcb6a54c72c4b4ac7",
+        "_tpl": "57c5ac0824597754771e88a9",
+        "parentId": "3c660f0bc607ce9d66139251",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "088e009ac241c7c5ca858be7",
+        "_tpl": "6516b129609aaf354b34b3a8",
+        "parentId": "35a386bbfb2e303b3280b030",
+        "slotId": "mod_pistol_grip"
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 20",
+    "quest": "Gunsmith - Part 20",
+    "items": [
+      {
+        "_id": "92eb4e171838300387b4f2c2",
+        "_tpl": "5aafa857e5b5b00018480968",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "5a2c5fb2171afa5470d5a8ec",
+        "_tpl": "5aaf8a0be5b5b00015693243",
+        "parentId": "92eb4e171838300387b4f2c2",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "221c6bc53bdd7a25fff0c96b",
+        "_tpl": "5addbf175acfc408fb13965b",
+        "parentId": "92eb4e171838300387b4f2c2",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "181100ad18b99fdc856ab2c4",
+        "_tpl": "5aaf9d53e5b5b00015042a52",
+        "parentId": "92eb4e171838300387b4f2c2",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "2ccd3d150c222b93bb78f8d7",
+        "_tpl": "5addbfef5acfc400185c2857",
+        "parentId": "92eb4e171838300387b4f2c2",
+        "slotId": "mod_mount"
+      },
+      {
+        "_id": "353590346bc1aebc8aac9a22",
+        "_tpl": "5addbfbb5acfc400194dbcf7",
+        "parentId": "221c6bc53bdd7a25fff0c96b",
+        "slotId": "mod_mount"
+      },
+      {
+        "_id": "5dd3f42a6caaa71414c6a7ad",
+        "_tpl": "5ab3afb2d8ce87001660304d",
+        "parentId": "181100ad18b99fdc856ab2c4",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "95a000beb85f2f62766fb2f5",
+        "_tpl": "5c86592b2e2216000e69e77c",
+        "parentId": "2ccd3d150c222b93bb78f8d7",
+        "slotId": "mod_scope"
+      },
+      {
+        "_id": "d96c35195752cf176b7ed520",
+        "_tpl": "58d39d3d86f77445bb794ae7",
+        "parentId": "353590346bc1aebc8aac9a22",
+        "slotId": "mod_scope"
+      },
+      {
+        "_id": "fd4fe123ec0095b6dfc668b7",
+        "_tpl": "57fd23e32459772d0805bcf1",
+        "parentId": "353590346bc1aebc8aac9a22",
+        "slotId": "mod_tactical",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      },
+      {
+        "_id": "8659d4ddedbf4e8734b9b144",
+        "_tpl": "58d399e486f77442e0016fe7",
+        "parentId": "d96c35195752cf176b7ed520",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "4083f3af76de8c08f4ef6f8d",
+        "_tpl": "5b7d693d5acfc43bca706a3d",
+        "parentId": "5dd3f42a6caaa71414c6a7ad",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "4ed2fe5ff2509490adbb7ece",
+        "_tpl": "5aa66be6e5b5b0214e506e97",
+        "parentId": "95a000beb85f2f62766fb2f5",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 21",
+    "quest": "Gunsmith - Part 21",
+    "items": [
+      {
+        "_id": "796af15fc7c8fc0b61287699",
+        "_tpl": "5e81c3cbac2bb513793cdc75",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "06b824eec33254339fbb5993",
+        "_tpl": "5f3e7801153b8571434a924c",
+        "parentId": "796af15fc7c8fc0b61287699",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "aec3618b07e81b9a14d09f92",
+        "_tpl": "5ef366938cef260c0642acad",
+        "parentId": "796af15fc7c8fc0b61287699",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "f988a0b22183deeeb708782f",
+        "_tpl": "5e81edc13397a21db957f6a1",
+        "parentId": "796af15fc7c8fc0b61287699",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "b7eaccf83bd6889fe6dd53bf",
+        "_tpl": "5f3e77b26cda304dcc634057",
+        "parentId": "796af15fc7c8fc0b61287699",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "d729ff7c1bcb1dafcd2fbf6f",
+        "_tpl": "5ef32e4d1c1fd62aea6a150d",
+        "parentId": "796af15fc7c8fc0b61287699",
+        "slotId": "mod_trigger"
+      },
+      {
+        "_id": "06bbbe3410a7f756b7e22e16",
+        "_tpl": "5e81c550763d9f754677befd",
+        "parentId": "796af15fc7c8fc0b61287699",
+        "slotId": "mod_hammer"
+      },
+      {
+        "_id": "d4bd026c3fd2cc017327d98c",
+        "_tpl": "5e81c539cb2b95385c177553",
+        "parentId": "796af15fc7c8fc0b61287699",
+        "slotId": "mod_catch"
+      },
+      {
+        "_id": "f2fd696dedc39409909a9945",
+        "_tpl": "5ef369b08cef260c0642acaf",
+        "parentId": "796af15fc7c8fc0b61287699",
+        "slotId": "mod_mount_001"
+      },
+      {
+        "_id": "48f17200d53339a9c2ec11dc",
+        "_tpl": "5e81ee4dcb2b95385c177582",
+        "parentId": "f988a0b22183deeeb708782f",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "8c2033cadaf6e3d1901a64fe",
+        "_tpl": "5e81ee213397a21db957f6a6",
+        "parentId": "f988a0b22183deeeb708782f",
+        "slotId": "mod_sight_front",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "dc6342e94cc07ec6ce641969",
+        "_tpl": "5ef61964ec7f42238c31e0c1",
+        "parentId": "f988a0b22183deeeb708782f",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "c84f0b06b1e5d976f772075d",
+        "_tpl": "5cc9c20cd7f00c001336c65d",
+        "parentId": "f2fd696dedc39409909a9945",
+        "slotId": "mod_tactical",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 22",
+    "quest": "Gunsmith - Part 22",
+    "items": [
+      {
+        "_id": "e7626848e3dcd12fbb46ab8a",
+        "_tpl": "5447a9cd4bdc2dbd208b4567",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "a4ecb13d2b17197b20ad549b",
+        "_tpl": "59db3a1d86f77429e05b4e92",
+        "parentId": "e7626848e3dcd12fbb46ab8a",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "225d42994281d449318189a6",
+        "_tpl": "59c1383d86f774290a37e0ca",
+        "parentId": "e7626848e3dcd12fbb46ab8a",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "4dd966c00e5dc1894acbdabc",
+        "_tpl": "55d355e64bdc2d962f8b4569",
+        "parentId": "e7626848e3dcd12fbb46ab8a",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "4cb5aa268658958261bdcfbc",
+        "_tpl": "5c793fb92e221644f31bfb64",
+        "parentId": "e7626848e3dcd12fbb46ab8a",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "58a0b14c0e285f7143037c88",
+        "_tpl": "5d44334ba4b9362b346d1948",
+        "parentId": "e7626848e3dcd12fbb46ab8a",
+        "slotId": "mod_charge"
+      },
+      {
+        "_id": "2d2d0da1b51edcdb9fb565b3",
+        "_tpl": "5a1ead28fcdbcb001912fa9f",
+        "parentId": "4dd966c00e5dc1894acbdabc",
+        "slotId": "mod_scope"
+      },
+      {
+        "_id": "ab5ca3a27f3353f95ac1a6ad",
+        "_tpl": "55d35ee94bdc2d61338b4568",
+        "parentId": "4dd966c00e5dc1894acbdabc",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "c690c980fb2480cdd3840ce5",
+        "_tpl": "5b2cfa535acfc432ff4db7a0",
+        "parentId": "4dd966c00e5dc1894acbdabc",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "1efb0a95783de65fa2269745",
+        "_tpl": "5d135e83d7ad1a21b83f42d8",
+        "parentId": "4cb5aa268658958261bdcfbc",
+        "slotId": "mod_stock_000"
+      },
+      {
+        "_id": "98a06622022acbf8f95758db",
+        "_tpl": "5a1eaa87fcdbcb001865f75e",
+        "parentId": "2d2d0da1b51edcdb9fb565b3",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "4538244a55fd8bfa4e4b425f",
+        "_tpl": "56ea8180d2720bf2698b456a",
+        "parentId": "ab5ca3a27f3353f95ac1a6ad",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "69f4dac361c67f20792b7a59",
+        "_tpl": "5d00ec68d7ad1a04a067e5be",
+        "parentId": "ab5ca3a27f3353f95ac1a6ad",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "7f7e8cc4bf04b9f772d07ffc",
+        "_tpl": "5b30bc285acfc47a8608615d",
+        "parentId": "c690c980fb2480cdd3840ce5",
+        "slotId": "mod_mount_000"
+      },
+      {
+        "_id": "d041e396d10d9cc992bdb89e",
+        "_tpl": "5a1eacb3fcdbcb09800872be",
+        "parentId": "98a06622022acbf8f95758db",
+        "slotId": "mod_tactical"
+      },
+      {
+        "_id": "c70fdd59e7f2f4508c80d717",
+        "_tpl": "57dbb57e2459774673234890",
+        "parentId": "4538244a55fd8bfa4e4b425f",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "243782224ff133fc1d255cff",
+        "_tpl": "59f8a37386f7747af3328f06",
+        "parentId": "7f7e8cc4bf04b9f772d07ffc",
+        "slotId": "mod_foregrip"
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 23",
+    "quest": "Gunsmith - Part 23",
+    "items": [
+      {
+        "_id": "0cc7de23141aeb35aebe28b0",
+        "_tpl": "606587252535c57a13424cfd",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "ed2bd0a32bc9436e4b4a92cc",
+        "_tpl": "6113cce3d92c473c770200c7",
+        "parentId": "0cc7de23141aeb35aebe28b0",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "6e4e00bbb633a8874aa076f2",
+        "_tpl": "5c6175362e221600133e3b94",
+        "parentId": "0cc7de23141aeb35aebe28b0",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "e7c7305967d593938fe79205",
+        "_tpl": "606587a88900dc2d9a55b659",
+        "parentId": "0cc7de23141aeb35aebe28b0",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "86968733e1ecd2c7a01552b7",
+        "_tpl": "5c793fc42e221600114ca25d",
+        "parentId": "0cc7de23141aeb35aebe28b0",
+        "slotId": "mod_stock_001"
+      },
+      {
+        "_id": "2f443b6c3d9df96138012751",
+        "_tpl": "606587bd6d0bd7580617bacc",
+        "parentId": "0cc7de23141aeb35aebe28b0",
+        "slotId": "mod_charge"
+      },
+      {
+        "_id": "2322ac36dee5b52f30fae102",
+        "_tpl": "59f9d81586f7744c7506ee62",
+        "parentId": "e7c7305967d593938fe79205",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "2be93f3b3516472a49d2615e",
+        "_tpl": "6065878ac9cf8012264142fd",
+        "parentId": "e7c7305967d593938fe79205",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "be07e66d4b04a071f14f8528",
+        "_tpl": "5d00ef6dd7ad1a0940739b16",
+        "parentId": "e7c7305967d593938fe79205",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "4d9dccd411bf3aeea1a3700b",
+        "_tpl": "5bc09a18d4351e003562b68e",
+        "parentId": "e7c7305967d593938fe79205",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "3c630d3d2ed9c9265bbab855",
+        "_tpl": "5c87a07c2e2216001219d4a2",
+        "parentId": "86968733e1ecd2c7a01552b7",
+        "slotId": "mod_stock_000"
+      },
+      {
+        "_id": "60a7a42e783ebb1a61e5d0be",
+        "_tpl": "5bbdb8bdd4351e4502011460",
+        "parentId": "2be93f3b3516472a49d2615e",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "66a9a9fad3f661eebfc4b36b",
+        "_tpl": "6065dc8a132d4d12c81fd8e3",
+        "parentId": "2be93f3b3516472a49d2615e",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "aa6cb2b222738cf1954c338b",
+        "_tpl": "5f6340d3ca442212f4047eb2",
+        "parentId": "be07e66d4b04a071f14f8528",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "d18e51fde59752877950ef8f",
+        "_tpl": "5a800961159bd4315e3a1657",
+        "parentId": "be07e66d4b04a071f14f8528",
+        "slotId": "mod_tactical_003",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 24",
+    "quest": "Gunsmith - Part 24",
+    "items": [
+      {
+        "_id": "92ee19dc233bacfed109e617",
+        "_tpl": "5df8ce05b11454561e39243b",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "380b18a2ce5fc28ee5ec4757",
+        "_tpl": "5d025cc1d7ad1a53845279ef",
+        "parentId": "92ee19dc233bacfed109e617",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "ba539ba329f88910e626ec4b",
+        "_tpl": "5df8f535bb49d91fb446d6b0",
+        "parentId": "92ee19dc233bacfed109e617",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "5761c850b8b90cf949c7140f",
+        "_tpl": "5c793fb92e221644f31bfb64",
+        "parentId": "92ee19dc233bacfed109e617",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "2d1e7a4c883728b92538e0c2",
+        "_tpl": "5df8e4080b92095fd441e594",
+        "parentId": "92ee19dc233bacfed109e617",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "b08946081c5f18afec0f3c2c",
+        "_tpl": "5df8e053bb49d91fb446d6a6",
+        "parentId": "92ee19dc233bacfed109e617",
+        "slotId": "mod_charge"
+      },
+      {
+        "_id": "be09e62daf23414778b45572",
+        "_tpl": "5d44069ca4b9361ebd26fc37",
+        "parentId": "5761c850b8b90cf949c7140f",
+        "slotId": "mod_stock_000"
+      },
+      {
+        "_id": "bea1a4724aba608729a65d6b",
+        "_tpl": "5d1b5e94d7ad1a2b865a96b0",
+        "parentId": "2d1e7a4c883728b92538e0c2",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "51514632708cb95831620242",
+        "_tpl": "5df917564a9f347bc92edca3",
+        "parentId": "2d1e7a4c883728b92538e0c2",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "57cdd4462202cdad6c9c95a2",
+        "_tpl": "6065881d1246154cad35d637",
+        "parentId": "2d1e7a4c883728b92538e0c2",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "74646548cc4faa5a621c52d0",
+        "_tpl": "5dfa3d7ac41b2312ea33362a",
+        "parentId": "2d1e7a4c883728b92538e0c2",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "300d59f795a39f5fed0988e1",
+        "_tpl": "6130c43c67085e45ef1405a1",
+        "parentId": "51514632708cb95831620242",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "9d7df9e7dce7241268b6db80",
+        "_tpl": "5dfa3d45dfc58d14537c20b0",
+        "parentId": "51514632708cb95831620242",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "1c5487079379a71586ed8057",
+        "_tpl": "6269220d70b6c02e665f2635",
+        "parentId": "57cdd4462202cdad6c9c95a2",
+        "slotId": "mod_mount_002"
+      },
+      {
+        "_id": "ad071df61015c7ff8bbeab50",
+        "_tpl": "5b7be4895acfc400170e2dd5",
+        "parentId": "57cdd4462202cdad6c9c95a2",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "ac0b22283bd7301d15e4941b",
+        "_tpl": "5dfa3d950dee1b22f862eae0",
+        "parentId": "57cdd4462202cdad6c9c95a2",
+        "slotId": "mod_sight_front",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "a08fbf25672ab83355da790c",
+        "_tpl": "5649a2464bdc2d91118b45a8",
+        "parentId": "57cdd4462202cdad6c9c95a2",
+        "slotId": "mod_scope"
+      },
+      {
+        "_id": "e889da882047d1947b116747",
+        "_tpl": "5dfa3d2b0dee1b22f862eade",
+        "parentId": "300d59f795a39f5fed0988e1",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "f5efddb95dc52dc04a90d9ee",
+        "_tpl": "5d2369418abbc306c62e0c80",
+        "parentId": "1c5487079379a71586ed8057",
+        "slotId": "mod_tactical",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      },
+      {
+        "_id": "b9af9bfce7d952da02006128",
+        "_tpl": "5b057b4f5acfc4771e1bd3e9",
+        "parentId": "ad071df61015c7ff8bbeab50",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "71320f35145bbe23c02e3c1e",
+        "_tpl": "577d128124597739d65d0e56",
+        "parentId": "a08fbf25672ab83355da790c",
+        "slotId": "mod_scope"
+      },
+      {
+        "_id": "6a1f2831b4ba6694079bf306",
+        "_tpl": "577d141e24597739c5255e01",
+        "parentId": "71320f35145bbe23c02e3c1e",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Part 25",
+    "quest": "Gunsmith - Part 25",
+    "items": [
+      {
+        "_id": "a3039c23654025623cf286a5",
+        "_tpl": "64ca3d3954fc657e230529cc",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "fullauto"
+          }
+        }
+      },
+      {
+        "_id": "a4f7e1479225f08e76e440f5",
+        "_tpl": "6087e663132d4d12c81fd96b",
+        "parentId": "a3039c23654025623cf286a5",
+        "slotId": "mod_pistolgrip"
+      },
+      {
+        "_id": "da26402a175e823483eddb0b",
+        "_tpl": "646372518610c40fc20204e8",
+        "parentId": "a3039c23654025623cf286a5",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "f0bfa71a26d35e1b95dd1920",
+        "_tpl": "6492d7847363b8a52206bc52",
+        "parentId": "a3039c23654025623cf286a5",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "3528aff28580f2fb4a1e6060",
+        "_tpl": "646371faf2404ab67905c8e9",
+        "parentId": "a3039c23654025623cf286a5",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "ddcb1bfb7399028c245356b4",
+        "_tpl": "6491c6f6ef312a876705191b",
+        "parentId": "a3039c23654025623cf286a5",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "a2aab5a53618583949a9dfba",
+        "_tpl": "6492fb8253acae0af00a29b6",
+        "parentId": "a3039c23654025623cf286a5",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "d2eced918bfb5f71ca5f5237",
+        "_tpl": "5cf638cbd7f00c06595bc936",
+        "parentId": "a3039c23654025623cf286a5",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "67ac7f19c697cc306389676a",
+        "_tpl": "5a0c59791526d8dba737bba7",
+        "parentId": "f0bfa71a26d35e1b95dd1920",
+        "slotId": "mod_stock_000"
+      },
+      {
+        "_id": "fe612edb7add518414c5438d",
+        "_tpl": "5649ad3f4bdc2df8348b4585",
+        "parentId": "f0bfa71a26d35e1b95dd1920",
+        "slotId": "mod_pistolgrip_000"
+      },
+      {
+        "_id": "2a2a317bc113dd4f3c6e07d2",
+        "_tpl": "6492ef63cfcf7c89e701abf1",
+        "parentId": "3528aff28580f2fb4a1e6060",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "df033c1dc0467ab25974f728",
+        "_tpl": "6492c6dd60fdb10a020621a2",
+        "parentId": "ddcb1bfb7399028c245356b4",
+        "slotId": "mod_mount"
+      },
+      {
+        "_id": "ce501f075c0c98b34ea36827",
+        "_tpl": "5c1cd46f2e22164bef5cfedb",
+        "parentId": "ddcb1bfb7399028c245356b4",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "2f395d00a61207e289e9c98d",
+        "_tpl": "544909bb4bdc2d6f028b4577",
+        "parentId": "df033c1dc0467ab25974f728",
+        "slotId": "mod_scope",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Special Order",
+    "quest": "Gunsmith - Special Order",
+    "items": [
+      {
+        "_id": "4fe428e018c354c2cfc4e51b",
+        "_tpl": "5447a9cd4bdc2dbd208b4567",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "f9e4a1eecd38e20208a47435",
+        "_tpl": "5a33e75ac4a2826c6e06d759",
+        "parentId": "4fe428e018c354c2cfc4e51b",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "558ba43ae3f3c998d73d04a3",
+        "_tpl": "5c6d46132e221601da357d56",
+        "parentId": "4fe428e018c354c2cfc4e51b",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "c896bc2a1df30e70aa649363",
+        "_tpl": "55d355e64bdc2d962f8b4569",
+        "parentId": "4fe428e018c354c2cfc4e51b",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "1fd63cead0cf099f43eecbe6",
+        "_tpl": "638de3603a1a4031d8260b8c",
+        "parentId": "4fe428e018c354c2cfc4e51b",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "8f52089af713431baf514dfd",
+        "_tpl": "5f633ff5c444ce7e3c30a006",
+        "parentId": "4fe428e018c354c2cfc4e51b",
+        "slotId": "mod_charge"
+      },
+      {
+        "_id": "51154a6beaea348e7263560f",
+        "_tpl": "55d35ee94bdc2d61338b4568",
+        "parentId": "c896bc2a1df30e70aa649363",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "a4c0b14bc6808ed7b77f6974",
+        "_tpl": "5ea16acdfadf1d18c87b0784",
+        "parentId": "c896bc2a1df30e70aa649363",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "a9a8726048183714c7f2e378",
+        "_tpl": "5c18b9192e2216398b5a8104",
+        "parentId": "c896bc2a1df30e70aa649363",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "d0ed917d8faa64ca33b209a2",
+        "_tpl": "58d2946386f774496974c37e",
+        "parentId": "1fd63cead0cf099f43eecbe6",
+        "slotId": "mod_stock_000"
+      },
+      {
+        "_id": "14e6bd1fbf5d21b890451c11",
+        "_tpl": "5ea172e498dacb342978818e",
+        "parentId": "51154a6beaea348e7263560f",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "aee29a605b0b24aaa8d36f2c",
+        "_tpl": "5d00ec68d7ad1a04a067e5be",
+        "parentId": "51154a6beaea348e7263560f",
+        "slotId": "mod_gas_block"
+      },
+      {
+        "_id": "692a9f71e2ff598180ec056d",
+        "_tpl": "57cffcd624597763133760c5",
+        "parentId": "a4c0b14bc6808ed7b77f6974",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "3ba695cb1a2a412253c647fb",
+        "_tpl": "5c18b90d2e2216152142466b",
+        "parentId": "a4c0b14bc6808ed7b77f6974",
+        "slotId": "mod_sight_front",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "7565b70243d69e23b1222fdf",
+        "_tpl": "55d6190f4bdc2d87028b4567",
+        "parentId": "14e6bd1fbf5d21b890451c11",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "0aeec20c2cdceea391897495",
+        "_tpl": "58d2912286f7744e27117493",
+        "parentId": "d0ed917d8faa64ca33b209a2",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "c55af3a1e31fab16b118bb84",
+        "_tpl": "58491f3324597764bc48fa02",
+        "parentId": "c896bc2a1df30e70aa649363",
+        "slotId": "mod_scope"
+      }
+    ]
+  },
+  {
+    "name": "Gunsmith - Old Friend's Request",
+    "quest": "Gunsmith - Old Friend's Request",
+    "items": [
+      {
+        "_id": "f06ac1e2712ecf4bf1d9aab0",
+        "_tpl": "5a7ae0c351dfba0017554310"
+      },
+      {
+        "_id": "3489aa2020587abd17e41282",
+        "_tpl": "5a6b5e468dc32e001207faf5",
+        "parentId": "f06ac1e2712ecf4bf1d9aab0",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "b5a83d4a24e01313b0452bae",
+        "_tpl": "5a6b592c8dc32e00094b97bf",
+        "parentId": "3489aa2020587abd17e41282",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "4bcae01db51918d3723e7178",
+        "_tpl": "5a71e4f48dc32e001207fb26",
+        "parentId": "f06ac1e2712ecf4bf1d9aab0",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "576b92d55f22a138246465d8",
+        "_tpl": "5a7d9122159bd4001438dbf4",
+        "parentId": "4bcae01db51918d3723e7178",
+        "slotId": "mod_sight_rear"
+      },
+      {
+        "_id": "b281f6e76be4af0a3f1ad3d1",
+        "_tpl": "5a7d90eb159bd400165484f1",
+        "parentId": "4bcae01db51918d3723e7178",
+        "slotId": "mod_sight_front"
+      },
+      {
+        "_id": "1f5f7f9b0429a2bc0ccd1b33",
+        "_tpl": "5a7b4960e899ef197b331a2d",
+        "parentId": "f06ac1e2712ecf4bf1d9aab0",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "5fe853289238920db95d9a07",
+        "_tpl": "5a718da68dc32e000d46d264",
+        "parentId": "f06ac1e2712ecf4bf1d9aab0",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "163a81763ace2ea708d29434",
+        "_tpl": "560d657b4bdc2da74d8b4572",
+        "parentId": "f06ac1e2712ecf4bf1d9aab0",
+        "slotId": "mod_tactical"
+      }
+    ]
+  },
+  {
+    "name": "Bonus - M700",
+    "quest": null,
+    "items": [
+      {
+        "_id": "d1e2bd4115b770c73fddced3",
+        "_tpl": "5bfea6e90db834001b7347f3",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "ea55694444d72d4a0f4b8b9c",
+        "_tpl": "5ce69cbad7f00c00b61c5098",
+        "parentId": "d1e2bd4115b770c73fddced3",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "5c397fab5c3926d3d6f2df8e",
+        "_tpl": "5cde739cd7f00c0010373bd3",
+        "parentId": "d1e2bd4115b770c73fddced3",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "916bc8cc96f8fbbec861cd31",
+        "_tpl": "5bfebc320db8340019668d79",
+        "parentId": "d1e2bd4115b770c73fddced3",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "2be4a365772e9188ccb7315a",
+        "_tpl": "5cde7b43d7f00c000d36b93e",
+        "parentId": "d1e2bd4115b770c73fddced3",
+        "slotId": "mod_mount"
+      },
+      {
+        "_id": "c1b9b8cf7b3ae78ccc1db1c5",
+        "_tpl": "5c793fb92e221644f31bfb64",
+        "parentId": "5c397fab5c3926d3d6f2df8e",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "7885c3ceb7cb73d6d59f5b6a",
+        "_tpl": "57af48872459771f0b2ebf11",
+        "parentId": "5c397fab5c3926d3d6f2df8e",
+        "slotId": "mod_pistol_grip"
+      },
+      {
+        "_id": "84082955a0b4e03fd00d165f",
+        "_tpl": "5cde7afdd7f00c000d36b89d",
+        "parentId": "5c397fab5c3926d3d6f2df8e",
+        "slotId": "mod_handguard"
+      },
+      {
+        "_id": "062f87e427b74f8c63acf0f5",
+        "_tpl": "5d443f8fa4b93678dd4a01aa",
+        "parentId": "916bc8cc96f8fbbec861cd31",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "e3b2fb7aa641c53b95c0e5a3",
+        "_tpl": "61713cc4d8e3106d9806c109",
+        "parentId": "2be4a365772e9188ccb7315a",
+        "slotId": "mod_scope"
+      },
+      {
+        "_id": "38624d82cb021af51f4f77b0",
+        "_tpl": "5c18b9192e2216398b5a8104",
+        "parentId": "2be4a365772e9188ccb7315a",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "dd9f739d1d0d48afaa542137",
+        "_tpl": "5d135ecbd7ad1a21c176542e",
+        "parentId": "c1b9b8cf7b3ae78ccc1db1c5",
+        "slotId": "mod_stock_000"
+      },
+      {
+        "_id": "adb42f5205b186fb14a35f58",
+        "_tpl": "5c18b90d2e2216152142466b",
+        "parentId": "84082955a0b4e03fd00d165f",
+        "slotId": "mod_sight_front",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      },
+      {
+        "_id": "df4999010d72ab2f3e0d4c2c",
+        "_tpl": "5fc0f9b5d724d907e2077d82",
+        "parentId": "84082955a0b4e03fd00d165f",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "6d2a19da6d5046ce49a2404f",
+        "_tpl": "5d44064fa4b9361e4f6eb8b5",
+        "parentId": "062f87e427b74f8c63acf0f5",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "e0f94118d431f69275f75796",
+        "_tpl": "61714eec290d254f5e6b2ffc",
+        "parentId": "e3b2fb7aa641c53b95c0e5a3",
+        "slotId": "mod_scope_000",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0
+          }
+        }
+      }
+    ]
+  }
+]
