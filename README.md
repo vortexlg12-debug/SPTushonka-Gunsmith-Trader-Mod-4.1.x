@@ -7,8 +7,6 @@ A server mod for **SPT 4.1.x** that adds a **Gunsmith** trader. He sells a finis
 - Gunsmith – Old Friend's Request
 - A bonus M700 build (can be turned off)
 
-Each build is checked against the 4.1.x task data: correct base weapon, every required part, parts in slots that accept them, and the task's ergonomics, weight and magazine-size limits.
-
 ## Installation
 
 1. Download the release zip.
@@ -38,7 +36,7 @@ To add or change a build, edit `db/presets.json`. Each entry is a normal SPT ite
 
 ## Building from source
 
-Requires the [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) and an SPT 4.1.x install, because the project references the server DLLs from `SPT_Runtime`.
+Requires the [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0) and an SPT 4.1.x install.
 
 ```
 dotnet build -c Release -p:SptRuntime="D:\SPT\SPT_Runtime" -o out
@@ -49,7 +47,6 @@ Copy everything in `out` to `SPT_Runtime\user\mods\GunsmithTrader\`.
 ## Credits
 
 - Inspired by the original [Gunsmith](https://sp-mod.com/mod/761/gunsmith) trader mod by **alex** and **TEOA**, last updated for SPT 3.10. The Parts 1–25 builds are based on that mod's presets (public community task builds), updated and fixed for 4.1.x. This is a full rewrite for the SPT 4.x C# server, with no code from the original.
-- Trader portrait: original illustration made for this mod.
 - Built with the SPT server mod examples from the SP-Tushonka team.
 
 ## License
