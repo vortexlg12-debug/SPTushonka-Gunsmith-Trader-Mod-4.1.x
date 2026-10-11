@@ -24,7 +24,7 @@ public record ModMetadata : IModMetadata
     public string Name { get; init; } = "Gunsmith Trader";
     public string Author { get; init; } = "Landon";
     public List<string>? Contributors { get; init; }
-    public SemanticVersioning.Version Version { get; init; } = new("1.0.1");
+    public SemanticVersioning.Version Version { get; init; } = new("1.0.2");
     public SemanticVersioning.Range SptVersion { get; init; } = new("~4.1.0");
     public List<string>? Incompatibilities { get; init; }
     public Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; }
@@ -42,7 +42,6 @@ public class GunsmithConfig
     [JsonPropertyName("buyLimitPerRestock")] public int BuyLimitPerRestock { get; set; }
     [JsonPropertyName("restockMinutesMin")] public int RestockMinutesMin { get; set; } = 60;
     [JsonPropertyName("restockMinutesMax")] public int RestockMinutesMax { get; set; } = 120;
-    [JsonPropertyName("includeBonusBuilds")] public bool IncludeBonusBuilds { get; set; } = true;
 }
 
 public class GunsmithPreset
@@ -91,7 +90,6 @@ public class GunsmithTraderMod(
         var added = 0;
         foreach (var preset in presets)
         {
-            if (preset.Quest is null && !config.IncludeBonusBuilds) continue;
             if (preset.Items.Count == 0) continue;
 
             var items = cloner.Clone(preset.Items)!;
